@@ -1,0 +1,43 @@
+@import "../../../../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+.box {
+	border: 1px solid black;
+}
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+body {
+    font-family: Tahoma, Serif;
+    margin:0;
+}
+
+mat-input-field {
+    width: 100%;
+}
+
+mat-select {
+    width: 35%;
+}
+mat-grid-tile {
+    width: 30%;
+}
+mat-slide-toggle {
+    width:100%;
+}
+
+.container {
+	width:80%;
+	margin:auto;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.primary {
+	color:white;
+}
