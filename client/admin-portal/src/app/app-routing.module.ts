@@ -5,6 +5,7 @@ import { WelcomeComponent } from './component/welcome/welcome.component';
 import { LogoutComponent } from './component/logout/logout.component';
 import { AddNewBookComponent } from './component/add-new-book/add-new-book.component';
 import { BookListComponent } from './component/book-list/book-list.component';
+import { ViewBookComponent } from './component/view-book/view-book.component';
 
 
 // const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
 	{ path: '', component: LoginComponent },
 	{ path: 'addnewbook', component:AddNewBookComponent},
 	{ path: 'logout', component: LogoutComponent },
-	{ path: 'booklist', component: BookListComponent}
+	{ path: 'booklist', component: BookListComponent},
+	{ path: 'viewbook', component: ViewBookComponent}
   ];
 
 @NgModule({

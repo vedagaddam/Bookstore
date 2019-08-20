@@ -1,0 +1,18 @@
+<div class="container">
+     <a [routerLink]="[ '/booklist']">Go Back</a>
+
+    <!-- <mat-grid-list> -->
+
+        <!-- <mat-grid-tile [colspan]="3" [rowspan]="3">
+            <mat-list>
+                <mat-list-item> -->
+                       <p><strong>Author</strong>{{book.author}}}</p>
+                <!-- </mat-list-item>
+            </mat-list> -->
+       
+
+        <!-- </mat-grid-tile>
+    </mat-grid-list> -->
+
+   <app-book-list selectedBook (onBookClick)=notifyBook($event)></app-book-list>
+</div>

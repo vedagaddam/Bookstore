@@ -15,6 +15,7 @@ import { WelcomeComponent } from './component/welcome/welcome.component';
 import { AddNewBookComponent } from './component/add-new-book/add-new-book.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { BookListComponent } from './component/book-list/book-list.component';
+import { ViewBookComponent } from './component/view-book/view-book.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { BookListComponent } from './component/book-list/book-list.component';
     FooterComponent,
     WelcomeComponent,
     AddNewBookComponent,
-    BookListComponent
+    BookListComponent,
+    ViewBookComponent
   ],
   imports: [
     HttpClientModule,
